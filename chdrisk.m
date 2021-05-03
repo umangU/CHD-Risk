@@ -6,9 +6,12 @@ systolic = input('Enter Systolic Blood Pressure points (mm Hg):');
 diastolic = input('Enter diastolic Blood Pressure points (mm Hg):');
 diabetes = input('Are you Diabetic (Y/N)?:','s');
 smoke = input('Are you a smoker (Y/N)?:','s');
-female = strcmp(gender,'F');     % String comparison to assign a true value in variable female if an individual is female
-diabetic = strcmp(diabetes,'Y'); % String comparison to assign a true value in variable diabetic if an individual has diabetes 
-smoker = strcmp(smoke,'Y');      % String comparison to assign a true value in variable if an individual is a smoker
+% String comparison to assign a true value in variable female if an individual is female
+female = strcmp(gender,'F');     
+% String comparison to assign a true value in variable diabetic if an individual has diabetes 
+diabetic = strcmp(diabetes,'Y'); 
+% String comparison to assign a true value in variable if an individual is a smoker
+smoker = strcmp(smoke,'Y');      
 
 % Point calculation based on an indidual's age
 if(age>=30)&&(age<=34)
