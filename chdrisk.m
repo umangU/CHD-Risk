@@ -83,7 +83,7 @@ if(age>=70)&&(age<=74)
     end
 end
 
-%Point calculation based on an indiviudal's LDL Cholestrol
+% Point calculation based on an indiviudal's LDL Cholestrol
 if(ldl<=2.59)
     if (female)
         ldl_total=-2;
@@ -120,7 +120,7 @@ if(ldl>=4.92)
     end
 end
 
-%Point calculation based on an indiviudal's HDL Cholestrol
+% Point calculation based on an indiviudal's HDL Cholestrol
 if(hdl<=0.9)
     if (female)
         hdl_total=5;
@@ -157,7 +157,7 @@ if(hdl>=1.56)
     end
 end
 
-%Points calculation based on Systolic and Diastolic blood pressure points
+% Points calculation based on Systolic and Diastolic blood pressure points
 if (systolic<=120)
   if (diastolic<80)
       if (female)
